@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 4px;
+}
+
+#covid{
+    background-color: black;
+    text-align: center;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+#covid :hover{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#landing_page{
+    background-image: url("./img/landing_img.webp");
+    background-size: cover;
+    background-position: center 85%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 0 8px;
+}
+
+#logo{
+    height: 25px;
+}
+#lang{
+    height: 20px;
+}
+
+#search_bar{
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    margin: 0 auto;
+    color: rgb(73, 73, 73);
+    padding: 8px;
+    justify-content: space-around;
+}
+
+#search_bar input{
+    border: none;
+    font-size: 12px;
+}
+
+.search_parameters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#submit{
+    background-color: #ff385c;
+    color: white;
+    border-radius: 100%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#call_to_action{
+    width: 100%;
+}
+
+#container{
+    width: 15%;
+    margin: 10% 0 20% 20%;
+}
+
+#container h1{
+    color: white;
+    font-size: 88px;
+}
+
+#container button{
+    color: rgb(73, 73, 73);
+    background-color: white;
+    border-radius: 7px;
+    border: none;
+    line-height: 28px;
+    margin-top: 16px;
+}
+
+
+#row_1, #row_2{
+    display: flex;
+}
+
+.close_locations{
+    display: flex;
+    padding: 32px;
+    margin: 0 auto
+}
+
+.right_container img{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.left_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left_container p{
+    padding: 8px;
+}
+
+#live_anywhere{
+    margin-top: 32px;
+}
+
+#options{
+    display: flex;
+}
+
+.options{
+    width: 25%;
+    padding: 8px;
+
+}
+
+.options img{
+    width: 100%;
+    border-radius: 10px;
+}
